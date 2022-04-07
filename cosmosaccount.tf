@@ -1,18 +1,18 @@
 ###### generic variables
 variable "client_id" {
-  default = ""
+  default = "18bb1d4f-32bb-4121-aa8c-3089c748c63a"
 }
 variable "client_secret" {
-  default = ""
+  default = "HxV7Q~VthoQgQssaMLhIWYrD8Aw~pR3GES3zo"
 }
 variable "tfstate_accesskey" {
   default = ""
 }
 variable "subscription_id" {
-  default = ""
+  default = "0aabcf89-410e-427a-9d91-4f84deceb58f"
 }
 variable "tenant_id" {
-  default = ""
+  default = "8331e14a-9134-4288-bf5a-5e2c8412f074"
 }
 
 ######### Network variables
@@ -32,7 +32,7 @@ variable "tags" {
   type = map
   default = {
     costcenter  = ""
-    app         = ""
+    app         = "assortment"
     appid       = ""
     environment = "dev"
   }
